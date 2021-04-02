@@ -8,6 +8,8 @@
   "scripts": {
     "dev": "quasar dev",
     "lint": "eslint --ext .js,.vue ./",
+	"build": "quasar build",
+    "deploy": "vercel",
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
